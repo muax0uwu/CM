@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/login.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="section"> 
+    <div class="container"> 
+        <div class="form"> 
+            <div class="left-side">
+                <div class="welcome">
+                    <h2>Welcome</h2>
+                </div>
+                <div class="unkn">
+                    <div class="u"></div>
+                </div> 
+            </div> 
+            <div class="right-side"> 
+                <div class="wrapper">
+                    <span class="icon-close" href="">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </span>
+
+
+                    <div class="form-box login">
+                        <h2>Login</h2>
+                        <form action="#">
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                                <input type="text" required>
+                                <label>Email</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                                <input type="password" required>
+                                <label>Password</label>
+                            </div>
+                            <div class="remember-forget">
+                                <label><input type="checkbox">Remember Me</label>
+                                <a href="#">Forget Password</a>
+                            </div>
+                            <button type="submit" class="btn">Login</button>
+                            <div class="login-register">
+                                <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                            </div>                            
+                        </form>
+                    </div>
+
+                    <div class="form-box register">
+                        <h2>Ragistration</h2>
+                        <form action="#">
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                                <input type="text" required>
+                                <label>Username</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                                <input type="text" required>
+                                <label>Email</label>
+                            </div>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                                <input type="password" id="password" required>
+                                <label>Password</label>
+                                <p id="msg">Password is <span id="stran"></span></p>
+                            </div>
+                            <div class="remember-forget2">
+                                <label><input type="checkbox">I Agree To The Terms And Conditions</label>
+                            </div>
+                            <button type="submit" class="btn">Register</button>
+                            <div class="login-register">
+                                <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                            </div>                            
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </div>
+</div>
+<script src='script.js'></script>
+</html>
